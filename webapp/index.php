@@ -1,6 +1,6 @@
 <?php
 
-$db_connection = pg_connect("host=postgress_host dbname=webapp_db user_nano");
+$db_connection = pg_connect("host=postgres_host dbname=webapp_db user=nano");
 
 if($db_connection){
 
